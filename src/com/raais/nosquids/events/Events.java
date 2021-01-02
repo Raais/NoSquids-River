@@ -18,12 +18,14 @@ public class Events implements Listener {
 
                     Biome biome = event.getLocation().getBlock().getBiome();
 
-                    if (biome == Biome.RIVER) {
+                    if (!(biome == Biome.OCEAN)) {
 
                         CreatureSpawnEvent.SpawnReason reason = event.getSpawnReason();
 
+
                         if (reason == CreatureSpawnEvent.SpawnReason.NATURAL) {
                             event.setCancelled(true);
+                            entity.remove();
                         }
 
                     }
