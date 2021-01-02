@@ -1,0 +1,5 @@
+name: NoSquids
+version: 1.0
+author: raais
+main: com.raais.nosquids.Main
+api-version: 1.14
