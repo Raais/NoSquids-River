@@ -1,2 +1,1 @@
-# NoSquids-River
-Spigot/Bukkit Plugin that prevents Squids from spawning (naturally) in a River Biome.
+Get on [SpigotMC](https://www.spigotmc.org/resources/nosquids-river-biome.87367/)
